@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="ndkBuild-2" description="ndkBuild-2" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Library/Android/sdk/ndk-bundle/ndk-build" />
+      <option name="PARAMETERS" value="NDK_PROJECT_PATH=$ModuleFileDir$/build/intermediates/ndk NDK_LIBS_OUT=$ModuleFileDir$/jniLibs NDK_APPLICATION_MK=$ModuleFileDir$/../../jni/Application.mk APP_BUILD_SCRIPT=$ModuleFileDir$/../../jni/Android.mk V=1" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
